@@ -1,3 +1,7 @@
+This is a project for ECE-GY 7123 Deep Learning between Panayiotis Christou, Md. Zahidul Islam and Syed Mohammed Ali Hussaini.
+
+The project 
+
 This repository implemented three deep reinforcement learning (RL) algorithms (i.e., PPO, A2C, TRPO) to reconfigure power distribution systems to maximize load supply during disasters.
 
 This repo uses the IEEE 34 test system as an environment to be used with the RL algorithms. The environment is obtained from the repo: https://github.com/Jubeyer/RL-to-Reconfigure-Microgrid. 
