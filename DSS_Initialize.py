@@ -69,7 +69,7 @@ def test_initialize():
     # Commented out on 06/02/2022
     DSSCktobj=CktModSetup(DSSfile,sectional_swt,tie_swt,DER) # initially the sectionalizing switches close and tie switches open
     i = DSSCktobj.dssLoads.First
-    factor = 1.0
+    factor = 1.5
     while i > 0:
         DSSCktobj.dssLoads.kW = round(DSSCktobj.dssLoads.kW * factor, 2)
         i = DSSCktobj.dssLoads.Next
